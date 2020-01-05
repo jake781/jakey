@@ -1,1 +1,90 @@
 
+<html>
+    <head>
+        <title>LOGIN FORM</title>
+       
+        <meta name="Student Login form" content="">
+        <meta charset="utf-8">
+        <style>
+            body{
+                width:100%;
+                background-color: black;
+            }
+            h1{
+                text-align:  center;
+                color: wheat;
+                
+            }
+            form{
+                padding: 190px;
+            }
+            .container{
+                max-width:550px;
+                margin:auto;
+                background:mintcream ;
+                padding:10px;
+                
+            }
+           input[type=text],input[type=password]{
+                width:70%;
+                padding: 12px 20px;
+                margin:8px 0;
+                display:inline-block;
+                border:1px solid #ccc;
+                box-sizing: border-box
+    
+}
+             input[type="submit"]{
+                 width: 50%;
+                background-color: green;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }  
+            input[type="reset"]{
+                width: 50%;
+                background-color: red;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+        }
+        .container{
+                width:550px;
+                margin:auto;
+                border:1px solid black;
+                border-radius:5px;
+        }
+            
+        </style>
+    </head>
+    <body>
+        <form action="" autocomplete="on">
+             <h1>Login</h1>
+            <div class="container">
+                
+    Username<font color="red">*</font><br>
+    <input type="text" placeholder="Enter Username" name="username" required>
+    <br>
+                     
+    Password<font color="red">*</font><br>
+    <input type="password" placeholder="Enter Password" name="password" autocomplete="off" required>
+    <br>
+                
+    <input type="checkbox" name="pass" value="pass" checked>Remember Password<br><br>
+                
+    <input type="submit" value="Sign In">
+    <input type="reset" value="Reset"><br><br>
+            
+                <a href="forgot.html">Forgot Password?</a>
+                <br><br>
+                New To Register?
+                  <a href="first.html">Sign up now</a>
+            </div>
+    </body>
+</html>
